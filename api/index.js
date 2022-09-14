@@ -21,7 +21,8 @@ app.get('/transaction',(req,res)=> {
 })
 //#cuando te haga un post http://localhost:5500/transaction
 app.post('/transaction', (req,res) => {
-    res.send('me hciieron un post')
+    console.log("Me esta llegando algoooooooooo");
+   //# res.send('me hciieron un post')
 })
 
 app.listen(port,()=>{

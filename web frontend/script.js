@@ -11,5 +11,9 @@ formElements.addEventListener("submit", (event)=>{
 
    //Mandar los datos al Backend y guardarlos ahi
    
+   fetch('http://localhost:5500/transaction',{
+    method : 'Post',
+    body : transactionDescription
+   })
 
 })
